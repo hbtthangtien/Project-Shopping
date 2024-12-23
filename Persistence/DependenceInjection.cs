@@ -1,0 +1,20 @@
+﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Persistence
+{
+    public static class DependenceInjection
+    {
+        public static IServiceCollection AddPersistence(this IServiceCollection services)
+        {
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+            return services;
+        }
+    }
+}
