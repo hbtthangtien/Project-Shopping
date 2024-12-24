@@ -19,6 +19,5 @@ namespace Application.Services
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
-    }
-    }
+    }    
 }

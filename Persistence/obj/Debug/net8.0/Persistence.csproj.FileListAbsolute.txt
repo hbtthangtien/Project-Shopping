@@ -17,3 +17,4 @@ E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.pdb
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\ref\Persistence.dll
 E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json

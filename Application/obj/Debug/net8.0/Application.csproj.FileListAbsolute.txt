@@ -13,3 +13,4 @@ E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.dll
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\refint\Application.dll
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.pdb
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\ref\Application.dll
+E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.sourcelink.json
