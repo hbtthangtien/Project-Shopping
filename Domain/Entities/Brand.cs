@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Type
+    public class Brand
     {
-        public int TypeId { get; set; }
-
-        public string? TypeName { get; set; }
-
+        public int BrandId { get; set; }
+        public string? BrandName { get; set; }
+        public string? BrandImage {  get; set; }
     }
 }

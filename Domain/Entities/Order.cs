@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Type
+    public class Order
     {
-        public int TypeId { get; set; }
-
-        public string? TypeName { get; set; }
 
     }
 }

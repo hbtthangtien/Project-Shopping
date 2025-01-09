@@ -30,8 +30,6 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .OnDelete(DeleteBehavior.SetNull);
             builder.HasMany(e => e.Products)
                    .WithOne();
-            builder.Property(e => e.SubCategoryId)
-                   .HasColumnName("sub_category_id");
         }
     }
 }

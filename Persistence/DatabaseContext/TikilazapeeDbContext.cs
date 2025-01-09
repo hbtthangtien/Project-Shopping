@@ -33,6 +33,7 @@ namespace Persistence.DatabaseContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.HasDefaultSchema("dbo");
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new SubCategoryConfiguration());
         }

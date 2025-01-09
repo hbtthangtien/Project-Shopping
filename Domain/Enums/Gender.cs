@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace Domain.Enums
 {
-    public class Type
+    public enum Gender
     {
-        public int TypeId { get; set; }
-
-        public string? TypeName { get; set; }
-
+        MALE,
+        FEMALE,
+        OTHER,
     }
 }
