@@ -31,8 +31,16 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .HasColumnName("origin_price");
             builder.Property(e => e.IsSale)
                    .HasColumnName("is_sale");
-           
-               
+            builder.HasOne(e => e.Product)
+                   .WithMany()
+                   .HasForeignKey(e => e.ProductId);
+            builder.HasOne(e => e.Color)
+                   .WithMany()
+                   .HasForeignKey(e => e.ColorId);
+            builder.HasOne(e => e.Type)
+                    .WithMany()
+                    .HasForeignKey(e => e.TypeId);
+
         }
     }
 }
