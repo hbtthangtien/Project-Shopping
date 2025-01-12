@@ -32,7 +32,7 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.Property(e => e.IsSale)
                    .HasColumnName("is_sale");
             builder.HasOne(e => e.Product)
-                   .WithMany()
+                   .WithMany(e => e.ColorTypes)
                    .HasForeignKey(e => e.ProductId);
             builder.HasOne(e => e.Color)
                    .WithMany()

@@ -1,4 +1,5 @@
 E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Persistence.deps.json
+E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Persistence.dll
 E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Persistence.pdb
 E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Application.dll
@@ -10,11 +11,10 @@ E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.GeneratedMS
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.dll
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.pdb
-E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\ref\Persistence.dll
-E:\Documents\C#\Tikilazapee\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
-E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+E:\Documents\C#\Tikilazapee\Persistence\obj\Debug\net8.0\ref\Persistence.dll

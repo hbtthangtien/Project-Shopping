@@ -8,9 +8,9 @@ E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.GeneratedMS
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.sourcelink.json
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.dll
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\refint\Application.dll
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.pdb
 E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\ref\Application.dll
-E:\Documents\C#\Tikilazapee\Application\obj\Debug\net8.0\Application.sourcelink.json

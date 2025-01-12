@@ -20,11 +20,7 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.Property(e => e.ColorName)
                    .HasColumnName("color_name")
                    .HasMaxLength(100);
-            builder.HasMany<Product>()
-                   .WithMany(e => e.ProductColors)
-                   .UsingEntity<ProductColorType>(
-                        j => j.HasOne(e => e.Color).WithMany().HasForeignKey(e => e.ColorId)
-                    );   
+            
         }
     }
 }

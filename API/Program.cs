@@ -1,7 +1,10 @@
 using Application;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Persistence;
 using Persistence.DatabaseContext;
+using Microsoft.Extensions.DependencyInjection;
 namespace API
 {
     public class Program
@@ -15,6 +18,10 @@ namespace API
             builder.Services.AddSwaggerGen();
             builder.Services.AddApplication();
             builder.Services.AddPersistence();
+            builder.Services.AddIdentity<Account, IdentityRole>()
+                    .AddEntityFrameworkStores<TikilazapeeDbContext>()
+                    .AddDefaultTokenProviders();
+                            
             builder.Services.AddDbContext<TikilazapeeDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration["ConnectionStrings:MyDatabase"]);

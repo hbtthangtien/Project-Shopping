@@ -20,12 +20,13 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.Property(x => x.BrandName)
                    .HasColumnName("brand_name")
                    .HasMaxLength(100);
-            builder.Property(x => x.BrandName)
+            builder.Property(x => x.BrandImage)
                    .HasColumnName("brand_image")
                    .HasMaxLength(256);
             builder.HasMany<Product>()
                    .WithOne(e => e.Brand)
-                   .HasForeignKey(e => e.BrandId);
+                   .HasForeignKey(e => e.BrandId)
+                   .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

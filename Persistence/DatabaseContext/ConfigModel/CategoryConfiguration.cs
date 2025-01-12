@@ -26,7 +26,8 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .HasConstraintName("FK_Category_SubCategory")
                    .OnDelete(DeleteBehavior.SetNull);
             builder.HasMany(e => e.Products)
-                   .WithOne();
+                   .WithOne(e => e.Category)
+                   .HasForeignKey(e => e.CategoryId);
         }
     }
 }

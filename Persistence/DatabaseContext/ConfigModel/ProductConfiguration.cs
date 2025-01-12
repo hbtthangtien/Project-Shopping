@@ -17,7 +17,6 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.ToTable("Product");
             builder.Property(e => e.ProductId)
                    .IsRequired()
-                   .UseIdentityColumn(1)
                    .HasColumnName("product_id");
             builder.Property(e => e.ProductName)
                    .HasMaxLength(256)
@@ -41,7 +40,8 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .HasColumnName("sub_categoty_id");
             builder.HasOne(e => e.Brand)
                    .WithMany()
-                   .HasForeignKey(e => e.ProductId);
+                   .HasForeignKey(e => e.BrandId)
+                   .OnDelete(DeleteBehavior.Cascade); ;
             builder.HasOne(e => e.Category)
                    .WithMany(e => e.Products)
                    .HasForeignKey(e => e.CategoryId);
@@ -49,13 +49,13 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .WithMany(e => e.Products)
                    .HasForeignKey(e => e.SubCatecoryId);
             builder.HasMany(e => e.ProductColors)
-                   .WithMany<Product>()
-                   .UsingEntity<ProductColorType>(
-                        j => j.HasOne(e => e.Product).WithMany().HasForeignKey(e => e.ProductId),
-                        i => i.HasOne(e => e.Color).WithMany().HasForeignKey(e => e.ColorId)
+                   .WithMany("Color");
 
-                    );
-
+            builder.HasMany(e => e.ProductTypes)
+                    .WithMany();
+            builder.HasMany(e => e.ColorTypes)
+                   .WithOne(e => e.Product)
+                   .HasForeignKey(e => e.ProductId);
         }
     }
 }

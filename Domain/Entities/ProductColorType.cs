@@ -17,9 +17,9 @@ namespace Domain.Entities
         public int? Available { get; set; }
         public bool IsSale { get; set; } = false;
         [NotMapped]
-        public double? TotalPrice  => (IsSale ?(OriginPrice - OriginPrice * Product!.SaleLevel) : OriginPrice);
+        public double? TotalPrice => (IsSale ? (OriginPrice - OriginPrice * Product!.SaleLevel) : OriginPrice);
         public virtual Product? Product { get; set; }
-        public virtual Color? Color { get; set;}
+        public virtual Color? Color { get; set; }
         public virtual Type? Type { get; set; }
 
 

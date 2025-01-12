@@ -10,6 +10,6 @@ namespace Domain.Entities
     {
         public int CategoryTypeID { get; set; }
         public string? CategoryTypeName { get; set; }
-        public virtual IEnumerable<Type> CategoryTypes { get; set; } = Enumerable.Empty<Type>();
+        public virtual ICollection<Type> CategoryTypes { get; set; } = new List<Type>()!;
     }
 }

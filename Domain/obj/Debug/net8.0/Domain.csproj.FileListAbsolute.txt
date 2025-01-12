@@ -1,13 +1,13 @@
 E:\Documents\C#\Tikilazapee\Domain\bin\Debug\net8.0\Domain.deps.json
 E:\Documents\C#\Tikilazapee\Domain\bin\Debug\net8.0\Domain.dll
 E:\Documents\C#\Tikilazapee\Domain\bin\Debug\net8.0\Domain.pdb
+E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.dll
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\refint\Domain.dll
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.pdb
 E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\ref\Domain.dll
-E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
-E:\Documents\C#\Tikilazapee\Domain\obj\Debug\net8.0\Domain.sourcelink.json
