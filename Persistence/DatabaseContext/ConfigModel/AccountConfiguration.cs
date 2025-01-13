@@ -48,6 +48,8 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.Property(e => e.AccessFailedCount)
                    .HasColumnName("access_failed_count")
                    .HasDefaultValue(0);
+            builder.Property(e => e.NormalizedUserName)
+                   .HasColumnName("normalized_username");
             builder.HasOne(e => e.Profile)
                    .WithOne(e => e.Account)
                    .HasForeignKey<Profile>(e => e.AccountId);

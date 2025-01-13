@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "E:\\Documents\\C#\\Tikilazapee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\migrations\\20250111131743_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\migrations\\20250111131743_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250113022613_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20250113022613_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\tikilazapeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\tikilazapeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250113022351_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20250113022351_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\productcolortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productcolortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\profileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\profileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\subcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\subcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\producttypecolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\producttypecolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111131217_update5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20250111131217_update5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111125242_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20250111125242_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\tikilazapeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\tikilazapeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\typeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\productcolortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productcolortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\subcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\subcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,45 +107,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250111131743_initial.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111131743_initial.cs",
-              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250111131743_initial.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111131743_initial.cs",
-              "RelativeToolTip": "Persistence\\Migrations\\20250111131743_initial.cs",
+              "Title": "20250113022613_initials.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250113022613_initials.cs",
+              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250113022613_initials.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250113022613_initials.cs",
+              "RelativeToolTip": "Persistence\\Migrations\\20250113022613_initials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T02:26:13.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250113022351_initials.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250113022351_initials.cs",
+              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250113022351_initials.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250113022351_initials.cs",
+              "RelativeToolTip": "Persistence\\Migrations\\20250113022351_initials.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:17:43.707Z",
+              "WhenOpened": "2025-01-13T02:23:51.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20250111131217_update5.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111131217_update5.cs",
-              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250111131217_update5.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111131217_update5.cs",
-              "RelativeToolTip": "Persistence\\Migrations\\20250111131217_update5.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ProfileConfiguration.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\ProfileConfiguration.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ProfileConfiguration.cs",
+              "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\ProfileConfiguration.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:12:17.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T09:04:59.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Brand.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Brand.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Brand.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Brand.cs",
               "RelativeToolTip": "Domain\\Entities\\Brand.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:02:47.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T13:02:47.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Order.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
@@ -157,25 +164,11 @@
               "RelativeToolTip": "Domain\\Entities\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:02:41.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T13:02:41.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250111125242_update1.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111125242_update1.cs",
-              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250111125242_update1.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250111125242_update1.cs",
-              "RelativeToolTip": "Persistence\\Migrations\\20250111125242_update1.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:52:43.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "SubCategory.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\SubCategory.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\SubCategory.cs",
@@ -183,25 +176,23 @@
               "RelativeToolTip": "Domain\\Entities\\SubCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:52:11.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T12:52:11.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TypeConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\TypeConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\TypeConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\TypeConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\TypeConfiguration.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABYAAAAvAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAEBUwBYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:50:36.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T12:50:36.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Type.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Type.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Type.cs",
@@ -209,12 +200,11 @@
               "RelativeToolTip": "Domain\\Entities\\Type.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAswAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:33:57.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T12:33:57.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "ProductColorType.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\ProductColorType.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductColorType.cs",
@@ -222,12 +212,11 @@
               "RelativeToolTip": "Domain\\Entities\\ProductColorType.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:33:11.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T12:33:11.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Color.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Color.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Color.cs",
@@ -235,61 +224,47 @@
               "RelativeToolTip": "Domain\\Entities\\Color.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAswA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T08:03:07.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T08:03:07.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "AccountConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\AccountConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\AccountConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\AccountConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\AccountConfiguration.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBUAAAA9AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T07:45:24.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ColorConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ColorConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\ColorConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ColorConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\ColorConfiguration.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAAMAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAIBJwBYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T05:35:27.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T05:35:27.303Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Persistence.csproj",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Persistence.csproj",
-              "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Persistence.csproj",
-              "RelativeToolTip": "Persistence\\Persistence.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-10T03:39:29.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwBYAAAAtAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBgwBYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T03:04:38.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Account.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Account.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Account.cs",
@@ -313,71 +288,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BrandConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\BrandConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\BrandConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\BrandConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\BrandConfiguration.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAzAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T01:14:33.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T01:14:33.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "TikilazapeeDbContext.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAHYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T01:13:30.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "SubCategoryConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\SubCategoryConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\SubCategoryConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\SubCategoryConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\SubCategoryConfiguration.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIBZwCAAAAA2AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACAAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T01:13:00.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\CategoryConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\CategoryConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\CategoryConfiguration.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB0AAAAzAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAIBJwB0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T01:11:41.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T01:11:41.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Entities\\Product.cs",
               "RelativeToolTip": "Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAsAAAASAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T01:05:37.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T01:05:37.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ProductTypeColorConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ProductTypeColorConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\ProductTypeColorConfiguration.cs",
@@ -385,21 +357,29 @@
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\ProductTypeColorConfiguration.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwCQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T01:02:35.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T01:02:35.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\ProductConfiguration.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\ProductConfiguration.cs",
               "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\ProductConfiguration.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAA2AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBJwCsAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T01:00:34.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T01:00:34.193Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 160,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
