@@ -24,5 +24,6 @@ namespace Domain.Entities
         public virtual ICollection<Color>? ProductColors { get; set; }  = new List<Color>()!;    
         public virtual ICollection<ProductImages>? ProductImages { get; set; } = new List<ProductImages>()!;
         public virtual ICollection<ProductColorType>? ColorTypes { get; set; } = new List<ProductColorType>()!;
+        public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>()!;
     }
 }

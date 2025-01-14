@@ -17,6 +17,8 @@ namespace Domain.Entities
 
         public virtual ICollection<SearchHistory>? SearchHistories { get; set; } = new List<SearchHistory>();
         
-
+        public virtual ICollection<CartItem>? CartItems { get; set; } = new List<CartItem>()!;
+        
+        public virtual ICollection<Order>? Orders { get; set; } = new List<Order>()!;
     }
 }

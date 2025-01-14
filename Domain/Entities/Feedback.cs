@@ -20,12 +20,12 @@ namespace Domain.Entities
 
         public bool IsFeedback {  get; set; }
 
-        public int FeedbackStatus { get; set; }
+        //public int FeedbackStatus { get; set; }
 
         public virtual Account? Account { get; set; }
 
         public virtual Product? Product { get; set;}
 
-
+        public virtual ICollection<ImageFeedback> ImageFeedbacks { get; set; } = new List<ImageFeedback>();
     }
 }

@@ -20,7 +20,12 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.Property(e => e.TypeName)
                    .HasMaxLength(100)
                    .IsUnicode(true)
-                   .HasColumnName("type_name");            
+                   .HasColumnName("type_name");
+            builder.Property(e => e.CategoryTypeId)
+                   .HasColumnName("category_type_id");
+            builder.HasOne(e => e.CategoryType)
+                   .WithMany(e => e.Types)
+                   .HasForeignKey(e => e.CategoryTypeId);
         }
     }
 }

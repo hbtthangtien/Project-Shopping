@@ -49,6 +49,8 @@ namespace Persistence.DatabaseContext
         public virtual DbSet<Profile> Profile { get; set; }
 
         public virtual DbSet<Domain.Entities.Type> Types { get; set; }
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 

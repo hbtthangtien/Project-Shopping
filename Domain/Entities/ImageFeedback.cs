@@ -13,5 +13,7 @@ namespace Domain.Entities
         public string? ImageFeedbackUrl { get; set; }
 
         public int? FeedbackId { get; set; }
+
+        public virtual Feedback? Feedback {  get; set; }
     }
 }

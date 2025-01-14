@@ -11,13 +11,13 @@ namespace Domain.Entities
     {
         public int CartItemId { get; set; }
 
-        public virtual int? ProductColorTypeId { get; set;}
+        public int? ProductColorTypeId { get; set;}
 
         public int? Quantity { get; set; } = 0;
         [NotMapped]
         public double? TotalPrice => (Quantity * ProductColorType?.TotalPrice);
 
-        public virtual string? AccountId {  get; set; }
+        public string? AccountId {  get; set; }
         
         public virtual Account? Account { get; set; }
 

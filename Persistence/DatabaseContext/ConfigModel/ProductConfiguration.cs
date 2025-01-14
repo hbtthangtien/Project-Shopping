@@ -50,7 +50,10 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .HasForeignKey(e => e.SubCatecoryId);
             builder.HasMany(e => e.ProductColors)
                    .WithMany("Color");
-
+            builder.HasMany(e => e.ProductImages)
+                    .WithOne(e => e.Product)
+                    .HasForeignKey(e => e.ProductId)
+                    .OnDelete(DeleteBehavior.SetNull);
             builder.HasMany(e => e.ProductTypes)
                     .WithMany();
             builder.HasMany(e => e.ColorTypes)
