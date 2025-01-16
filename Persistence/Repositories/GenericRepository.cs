@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces.IRepositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using Persistence.DatabaseContext;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace Persistence.Repositories
     {
         protected readonly TikilazapeeDbContext _context;
         private readonly DbSet<T> _dbSet;
-
+        private IDbContextTransaction _transactions;
         public GenericRepository(TikilazapeeDbContext context)
         {
             if(_context == null)
@@ -46,5 +47,29 @@ namespace Persistence.Repositories
         {
             _dbSet.Update(entity);
         }
+        public async Task BeginTransactionAsync()
+        {
+            if(_transactions == null)
+            {
+                _transactions = await _context.Database.BeginTransactionAsync(); 
+            }
+        }
+        public async Task CommitTransactionAsync()
+        {
+            if( _transactions != null)
+            {
+                await _transactions.CommitAsync();
+            }
+        }
+
+        public async Task RollbackTransactionAsync()
+        {
+            if(_transactions != null)
+            {
+                await _transactions.RollbackAsync();
+
+            }
+        }
+        
     }
 }
