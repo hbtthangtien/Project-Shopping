@@ -25,6 +25,9 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.HasMany(e => e.SearchHistories)
                    .WithOne(e => e.Customer)
                    .HasForeignKey(e => e.CustomerId);
+            builder.HasOne(e => e.Account)
+                   .WithOne(e => e.Customer)
+                   .HasForeignKey<Customer>(e => e.CustomerId); 
         }
     }
 }
