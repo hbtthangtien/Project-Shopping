@@ -21,7 +21,7 @@ namespace Persistence.DatabaseContext
         {
             _configuration = configuration;
         }
-        
+        #region list dbSet entities
         public virtual DbSet<Category> Categories { get; set; }
 
         public virtual DbSet<SubCategory> SubCategories { get; set; }
@@ -48,9 +48,17 @@ namespace Persistence.DatabaseContext
 
         public virtual DbSet<Profile> Profile { get; set; }
 
+        public virtual DbSet<Customer> Customers { get; set; }
+
         public virtual DbSet<Domain.Entities.Type> Types { get; set; }
 
+        public virtual DbSet<CartItem> CartItems { get; set; }
 
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+
+        public virtual DbSet<Store> Stores { get; set; }
+
+        #endregion end list
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 

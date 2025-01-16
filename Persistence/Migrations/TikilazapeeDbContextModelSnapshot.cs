@@ -83,7 +83,8 @@ namespace Persistence.Migrations
 
                     b.Property<string>("NormalizedUserName")
                         .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                        .HasColumnType("nvarchar(256)")
+                        .HasColumnName("normalized_username");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)")
@@ -96,10 +97,6 @@ namespace Persistence.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit")
                         .HasColumnName("phone_number_confirmed");
-
-                    b.Property<double?>("Score")
-                        .HasColumnType("float")
-                        .HasColumnName("scores");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)")
@@ -122,7 +119,7 @@ namespace Persistence.Migrations
                     b.HasIndex("NormalizedUserName")
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+                        .HasFilter("[normalized_username] IS NOT NULL");
 
                     b.ToTable("Account", "dbo");
                 });
@@ -151,6 +148,52 @@ namespace Persistence.Migrations
                     b.ToTable("Brands", "dbo");
                 });
 
+            modelBuilder.Entity("Domain.Entities.CartItem", b =>
+                {
+                    b.Property<int>("CartItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("cart_item_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartItemId"));
+
+                    b.Property<int?>("ColorId")
+                        .HasColumnType("int")
+                        .HasColumnName("color_id");
+
+                    b.Property<string>("CustomerId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("customer_id");
+
+                    b.Property<int?>("ProductColorTypeId")
+                        .HasColumnType("int")
+                        .HasColumnName("product_color_type_id");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int")
+                        .HasColumnName("product_id");
+
+                    b.Property<int?>("Quantity")
+                        .HasColumnType("int")
+                        .HasColumnName("quantity");
+
+                    b.Property<int?>("TypeId")
+                        .HasColumnType("int")
+                        .HasColumnName("type_id");
+
+                    b.HasKey("CartItemId");
+
+                    b.HasIndex("ColorId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TypeId");
+
+                    b.ToTable("CartItems", "dbo");
+                });
+
             modelBuilder.Entity("Domain.Entities.Category", b =>
                 {
                     b.Property<int>("CategoryId")
@@ -170,6 +213,24 @@ namespace Persistence.Migrations
                     b.ToTable("Categories", "dbo");
                 });
 
+            modelBuilder.Entity("Domain.Entities.CategoryType", b =>
+                {
+                    b.Property<int>("CategoryTypeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("category_type_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryTypeID"));
+
+                    b.Property<string>("CategoryTypeName")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("category_type_name");
+
+                    b.HasKey("CategoryTypeID");
+
+                    b.ToTable("CategoryTypes", "dbo");
+                });
+
             modelBuilder.Entity("Domain.Entities.Color", b =>
                 {
                     b.Property<int>("ColorId")
@@ -187,6 +248,185 @@ namespace Persistence.Migrations
                     b.HasKey("ColorId");
 
                     b.ToTable("Colors", "dbo");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Customer", b =>
+                {
+                    b.Property<string>("CustomerId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("customer_id");
+
+                    b.Property<double?>("Score")
+                        .HasColumnType("float")
+                        .HasColumnName("scores");
+
+                    b.HasKey("CustomerId");
+
+                    b.ToTable("Customers", "dbo");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Feedback", b =>
+                {
+                    b.Property<int>("FeedbackId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("feedback_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeedbackId"));
+
+                    b.Property<string>("AccountId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("account_id");
+
+                    b.Property<DateTime?>("FeedbackDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2025, 1, 16, 16, 23, 16, 933, DateTimeKind.Local).AddTicks(8071))
+                        .HasColumnName("feedback_date");
+
+                    b.Property<string>("FeedbackDescribe")
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("feedback_describe");
+
+                    b.Property<bool>("IsFeedback")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_feedback");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int")
+                        .HasColumnName("product_id");
+
+                    b.HasKey("FeedbackId");
+
+                    b.HasIndex("AccountId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Feedbacks", "dbo");
+                });
+
+            modelBuilder.Entity("Domain.Entities.ImageFeedback", b =>
+                {
+                    b.Property<int>("ImageFeedbackId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("image_feedback_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageFeedbackId"));
+
+                    b.Property<int?>("FeedbackId")
+                        .HasColumnType("int")
+                        .HasColumnName("feedback_id");
+
+                    b.Property<string>("ImageFeedbackUrl")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("image_feedback_url");
+
+                    b.HasKey("ImageFeedbackId");
+
+                    b.HasIndex("FeedbackId");
+
+                    b.ToTable("ImageFeedbacks", "dbo");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("order_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
+
+                    b.Property<double?>("AddScore")
+                        .HasColumnType("float")
+                        .HasColumnName("add_score");
+
+                    b.Property<string>("CustomerId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("customer_id");
+
+                    b.Property<bool?>("IsFeedback")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_feedback");
+
+                    b.Property<DateTime?>("OrderDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("order_date");
+
+                    b.Property<int?>("Status")
+                        .HasColumnType("int")
+                        .HasColumnName("order_status");
+
+                    b.Property<int?>("StoreId")
+                        .HasColumnType("int")
+                        .HasColumnName("store_id");
+
+                    b.Property<double?>("TotalPrice")
+                        .HasColumnType("float")
+                        .HasColumnName("total_price");
+
+                    b.Property<double?>("UseScore")
+                        .HasColumnType("float")
+                        .HasColumnName("use_score");
+
+                    b.HasKey("OrderId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("StoreId");
+
+                    b.ToTable("Orders", "dbo");
+                });
+
+            modelBuilder.Entity("Domain.Entities.OrderDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("ColorId")
+                        .HasColumnType("int")
+                        .HasColumnName("color_id");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int")
+                        .HasColumnName("product_id");
+
+                    b.Property<int?>("Quantity")
+                        .HasColumnType("int")
+                        .HasColumnName("quantity");
+
+                    b.Property<int?>("StoreId")
+                        .HasColumnType("int")
+                        .HasColumnName("store_id");
+
+                    b.Property<int?>("TypeId")
+                        .HasColumnType("int")
+                        .HasColumnName("type_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ColorId");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("StoreId");
+
+                    b.HasIndex("TypeId");
+
+                    b.ToTable("OrderDetails", "dbo");
                 });
 
             modelBuilder.Entity("Domain.Entities.Product", b =>
@@ -227,6 +467,10 @@ namespace Persistence.Migrations
                         .HasColumnType("int")
                         .HasColumnName("sale_level");
 
+                    b.Property<int?>("StoreId")
+                        .HasColumnType("int")
+                        .HasColumnName("store_id");
+
                     b.Property<int?>("SubCatecoryId")
                         .HasColumnType("int")
                         .HasColumnName("sub_categoty_id");
@@ -236,6 +480,8 @@ namespace Persistence.Migrations
                     b.HasIndex("BrandId");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("StoreId");
 
                     b.HasIndex("SubCatecoryId");
 
@@ -296,11 +542,13 @@ namespace Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int")
+                        .HasColumnName("product_id");
 
                     b.Property<string>("UrlImage")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("url_image");
 
                     b.HasKey("Id");
 
@@ -363,21 +611,69 @@ namespace Persistence.Migrations
                 {
                     b.Property<int>("SearchHistoryId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("search_history_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SearchHistoryId"));
 
-                    b.Property<string>("AccountId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<string>("CustomerId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("customer_id");
 
                     b.Property<string>("SearchKey")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("search_key");
+
+                    b.Property<DateTime?>("SearchLog")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("search_log");
 
                     b.HasKey("SearchHistoryId");
 
-                    b.HasIndex("AccountId");
+                    b.HasIndex("CustomerId");
 
-                    b.ToTable("SearchHistory", "dbo");
+                    b.ToTable("SearchHistories", "dbo");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Store", b =>
+                {
+                    b.Property<int>("StoreId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("store_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StoreId"));
+
+                    b.Property<string>("AccountId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("account_id");
+
+                    b.Property<string>("StoreAddress")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("store_address");
+
+                    b.Property<string>("StoreEmail")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("store_email");
+
+                    b.Property<string>("StoreImage")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("store_image");
+
+                    b.Property<string>("StoreName")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("store_name");
+
+                    b.Property<string>("StorePhone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("StoreId");
+
+                    b.HasIndex("AccountId")
+                        .IsUnique()
+                        .HasFilter("[account_id] IS NOT NULL");
+
+                    b.ToTable("Stores", "dbo");
                 });
 
             modelBuilder.Entity("Domain.Entities.SubCategory", b =>
@@ -415,6 +711,10 @@ namespace Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TypeId"));
 
+                    b.Property<int?>("CategoryTypeId")
+                        .HasColumnType("int")
+                        .HasColumnName("category_type_id");
+
                     b.Property<string>("TypeName")
                         .HasMaxLength(100)
                         .IsUnicode(true)
@@ -422,6 +722,8 @@ namespace Persistence.Migrations
                         .HasColumnName("type_name");
 
                     b.HasKey("TypeId");
+
+                    b.HasIndex("CategoryTypeId");
 
                     b.ToTable("Type", "dbo");
                 });
@@ -609,6 +911,117 @@ namespace Persistence.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Domain.Entities.CartItem", b =>
+                {
+                    b.HasOne("Domain.Entities.Color", "Color")
+                        .WithMany()
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Domain.Entities.Customer", "Customer")
+                        .WithMany("CartItems")
+                        .HasForeignKey("CustomerId");
+
+                    b.HasOne("Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
+
+                    b.HasOne("Domain.Entities.Type", "Type")
+                        .WithMany()
+                        .HasForeignKey("TypeId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Type");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Customer", b =>
+                {
+                    b.HasOne("Domain.Entities.Account", "Account")
+                        .WithOne("Customer")
+                        .HasForeignKey("Domain.Entities.Customer", "CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Account");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Feedback", b =>
+                {
+                    b.HasOne("Domain.Entities.Account", "Account")
+                        .WithMany()
+                        .HasForeignKey("AccountId");
+
+                    b.HasOne("Domain.Entities.Product", "Product")
+                        .WithMany("Feedbacks")
+                        .HasForeignKey("ProductId");
+
+                    b.Navigation("Account");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Domain.Entities.ImageFeedback", b =>
+                {
+                    b.HasOne("Domain.Entities.Feedback", "Feedback")
+                        .WithMany("ImageFeedbacks")
+                        .HasForeignKey("FeedbackId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Feedback");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Order", b =>
+                {
+                    b.HasOne("Domain.Entities.Customer", "Customer")
+                        .WithMany("Orders")
+                        .HasForeignKey("CustomerId");
+
+                    b.HasOne("Domain.Entities.Store", "Store")
+                        .WithMany("Orders")
+                        .HasForeignKey("StoreId");
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Store");
+                });
+
+            modelBuilder.Entity("Domain.Entities.OrderDetail", b =>
+                {
+                    b.HasOne("Domain.Entities.Color", "Color")
+                        .WithMany()
+                        .HasForeignKey("ColorId");
+
+                    b.HasOne("Domain.Entities.Order", null)
+                        .WithMany("Details")
+                        .HasForeignKey("OrderId");
+
+                    b.HasOne("Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
+
+                    b.HasOne("Domain.Entities.Store", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreId");
+
+                    b.HasOne("Domain.Entities.Type", "Type")
+                        .WithMany()
+                        .HasForeignKey("TypeId");
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Store");
+
+                    b.Navigation("Type");
+                });
+
             modelBuilder.Entity("Domain.Entities.Product", b =>
                 {
                     b.HasOne("Domain.Entities.Brand", "Brand")
@@ -620,6 +1033,10 @@ namespace Persistence.Migrations
                         .WithMany("Products")
                         .HasForeignKey("CategoryId");
 
+                    b.HasOne("Domain.Entities.Store", "Store")
+                        .WithMany("Products")
+                        .HasForeignKey("StoreId");
+
                     b.HasOne("Domain.Entities.SubCategory", "SubCategory")
                         .WithMany("Products")
                         .HasForeignKey("SubCatecoryId");
@@ -627,6 +1044,8 @@ namespace Persistence.Migrations
                     b.Navigation("Brand");
 
                     b.Navigation("Category");
+
+                    b.Navigation("Store");
 
                     b.Navigation("SubCategory");
                 });
@@ -657,8 +1076,7 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Entities.Product", "Product")
                         .WithMany("ProductImages")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Product");
                 });
@@ -674,9 +1092,18 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Domain.Entities.SearchHistory", b =>
                 {
-                    b.HasOne("Domain.Entities.Account", "Account")
+                    b.HasOne("Domain.Entities.Customer", "Customer")
                         .WithMany("SearchHistories")
-                        .HasForeignKey("AccountId");
+                        .HasForeignKey("CustomerId");
+
+                    b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Store", b =>
+                {
+                    b.HasOne("Domain.Entities.Account", "Account")
+                        .WithOne("Store")
+                        .HasForeignKey("Domain.Entities.Store", "AccountId");
 
                     b.Navigation("Account");
                 });
@@ -690,6 +1117,15 @@ namespace Persistence.Migrations
                         .HasConstraintName("FK_Category_SubCategory");
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Type", b =>
+                {
+                    b.HasOne("Domain.Entities.CategoryType", "CategoryType")
+                        .WithMany("Types")
+                        .HasForeignKey("CategoryTypeId");
+
+                    b.Navigation("CategoryType");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -760,9 +1196,11 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Domain.Entities.Account", b =>
                 {
+                    b.Navigation("Customer");
+
                     b.Navigation("Profile");
 
-                    b.Navigation("SearchHistories");
+                    b.Navigation("Store");
                 });
 
             modelBuilder.Entity("Domain.Entities.Category", b =>
@@ -772,11 +1210,44 @@ namespace Persistence.Migrations
                     b.Navigation("SubCategories");
                 });
 
+            modelBuilder.Entity("Domain.Entities.CategoryType", b =>
+                {
+                    b.Navigation("Types");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Customer", b =>
+                {
+                    b.Navigation("CartItems");
+
+                    b.Navigation("Orders");
+
+                    b.Navigation("SearchHistories");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Feedback", b =>
+                {
+                    b.Navigation("ImageFeedbacks");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Order", b =>
+                {
+                    b.Navigation("Details");
+                });
+
             modelBuilder.Entity("Domain.Entities.Product", b =>
                 {
                     b.Navigation("ColorTypes");
 
+                    b.Navigation("Feedbacks");
+
                     b.Navigation("ProductImages");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Store", b =>
+                {
+                    b.Navigation("Orders");
+
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("Domain.Entities.SubCategory", b =>

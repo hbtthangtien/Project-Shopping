@@ -10,7 +10,6 @@
     <Folder Include="Common\" />
     <Folder Include="DTOs\Response\" />
     <Folder Include="DTOs\Request\" />
-    <Folder Include="Constants\" />
     <Folder Include="Configs\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Interfaces\IServices\" />

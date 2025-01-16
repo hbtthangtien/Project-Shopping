@@ -19,8 +19,6 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .HasColumnName("account_id");
             builder.Property(e => e.LatestLogin)
                    .HasColumnName("latest_login");
-            builder.Property(e => e.Score)
-                   .HasColumnName("scores");
             builder.Property(e => e.UserName)
                    .HasColumnName("username");
             builder.Property(e => e.Email)
@@ -53,7 +51,12 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.HasOne(e => e.Profile)
                    .WithOne(e => e.Account)
                    .HasForeignKey<Profile>(e => e.AccountId);
-
+            builder.HasOne(e => e.Store)
+                   .WithOne(e => e.Account)
+                   .HasForeignKey<Store>(e => e.AccountId);
+            builder.HasOne(e => e.Customer)
+                   .WithOne(e => e.Account)
+                   .HasForeignKey<Customer>(e => e.CustomerId);
         }
     }
 }

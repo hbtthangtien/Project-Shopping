@@ -17,7 +17,8 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.ToTable("Product");
             builder.Property(e => e.ProductId)
                    .IsRequired()
-                   .HasColumnName("product_id");
+                   .HasColumnName("product_id")
+                   .UseIdentityColumn(1);
             builder.Property(e => e.ProductName)
                    .HasMaxLength(256)
                    .IsUnicode(true)
@@ -48,6 +49,8 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.HasOne(e => e.SubCategory)
                    .WithMany(e => e.Products)
                    .HasForeignKey(e => e.SubCatecoryId);
+            builder.Property(e => e.StoreId)
+                   .HasColumnName("store_id");
             builder.HasMany(e => e.ProductColors)
                    .WithMany("Color");
             builder.HasMany(e => e.ProductImages)
@@ -59,6 +62,9 @@ namespace Persistence.DatabaseContext.ConfigModel
             builder.HasMany(e => e.ColorTypes)
                    .WithOne(e => e.Product)
                    .HasForeignKey(e => e.ProductId);
+            builder.HasOne(e => e.Store)
+                   .WithMany(e => e.Products)
+                   .HasForeignKey(e => e.StoreId);
         }
     }
 }

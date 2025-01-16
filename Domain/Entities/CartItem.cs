@@ -10,17 +10,16 @@ namespace Domain.Entities
     public class CartItem
     {
         public int CartItemId { get; set; }
-
         public int? ProductColorTypeId { get; set;}
-
+        public int? ProductId { get; set; }
+        public int? ColorId { get; set; }
+        public int? TypeId { get; set; }
         public int? Quantity { get; set; } = 0;
-        [NotMapped]
-        public double? TotalPrice => (Quantity * ProductColorType?.TotalPrice);
+        public string? CustomerId {  get; set; }        
+        public virtual Customer? Customer { get; set; }
+        public virtual Product? Product { get; set; }
+        public virtual Type? Type { get; set; }
+        public virtual Color? Color { get; set; }
 
-        public string? AccountId {  get; set; }
-        
-        public virtual Account? Account { get; set; }
-
-        public virtual ProductColorType? ProductColorType { get; set; }
     }
 }

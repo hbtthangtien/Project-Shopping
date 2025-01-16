@@ -14,12 +14,14 @@ namespace Domain.Entities
         public int? CategoryId { get; set; }
         public string? ProductName { get; set; }
         public int? SubCatecoryId { get; set; }
+        public int? StoreId { get; set; }
         public string? ProductDescribes { get; set; }
         public int? SaleLevel { get; set; } = 0;
         public bool? IsActived { get; set; }
         public virtual Brand? Brand { get; set; }
         public virtual Category? Category { get; set; }
         public virtual SubCategory? SubCategory { get; set; }
+        public virtual Store? Store { get; set; }
         public virtual ICollection<Type>? ProductTypes { get; set; } = new List<Type>()!;
         public virtual ICollection<Color>? ProductColors { get; set; }  = new List<Color>()!;    
         public virtual ICollection<ProductImages>? ProductImages { get; set; } = new List<ProductImages>()!;

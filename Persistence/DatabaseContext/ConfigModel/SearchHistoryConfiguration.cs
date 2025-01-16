@@ -14,7 +14,19 @@ namespace Persistence.DatabaseContext.ConfigModel
     {
         public void Configure(EntityTypeBuilder<SearchHistory> builder)
         {
-            throw new NotImplementedException();
+            builder.Property(e => e.SearchHistoryId)
+                   .IsRequired()
+                   .HasColumnName("search_history_id")
+                   .UseIdentityColumn(1);
+            builder.Property(e => e.SearchKey)
+                   .HasColumnName("search_key");
+            builder.Property(e => e.CustomerId)
+                   .HasColumnName("customer_id");
+            builder.Property(e => e.SearchLog)
+                   .HasColumnName("search_log");
+            builder.HasOne(e => e.Customer)
+                   .WithMany(e => e.SearchHistories)
+                   .HasForeignKey(e => e.CustomerId);
         }
     }
 }

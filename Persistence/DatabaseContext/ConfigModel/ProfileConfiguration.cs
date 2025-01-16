@@ -15,7 +15,8 @@ namespace Persistence.DatabaseContext.ConfigModel
         {
             builder.Property(e => e.ProfileId)
                    .HasColumnName("profile_id")
-                   .IsRequired();
+                   .IsRequired()
+                   .UseIdentityColumn(1);
             builder.Property(e => e.AccountId)
                    .HasColumnName("account_id");
             builder.Property(e => e.AvatarProfile)

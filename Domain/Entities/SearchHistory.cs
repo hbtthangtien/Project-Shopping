@@ -9,8 +9,9 @@ namespace Domain.Entities
     public class SearchHistory
     {
         public int SearchHistoryId { get; set; }
-        public string? AccountId { get; set; }
+        public string? CustomerId { get; set; }
         public string? SearchKey { get; set; }
-        public virtual Account? Account { get; set; }
+        public DateTime? SearchLog {  get; set; } = DateTime.Now;
+        public virtual Customer? Customer { get; set; }
     }
 }
