@@ -69,7 +69,7 @@ namespace Persistence.DatabaseContext
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.HasDefaultSchema("dbo");
-            // custom table Identity Role
+            #region custom table Identity
             modelBuilder.Entity<IdentityRole>(entity =>
             {
                 entity.ToTable("Roles");
@@ -143,9 +143,10 @@ namespace Persistence.DatabaseContext
                       .HasColumnName("role_is");
                 entity.Property(e => e.UserId)
                       .HasColumnName("user_id");
-            }); 
-            
+            });
+            #endregion
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            modelBuilder.SeedIdentityData();
         }
     }
 }
