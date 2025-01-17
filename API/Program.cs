@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Persistence;
 using Persistence.DatabaseContext;
 using Microsoft.Extensions.DependencyInjection;
+using API.Middlewares;
 namespace API
 {
     public class Program
@@ -18,9 +19,7 @@ namespace API
             builder.Services.AddSwaggerGen();
             builder.Services.AddApplication();
             builder.Services.AddPersistence();
-            builder.Services.AddIdentity<Account, IdentityRole>()
-                    .AddEntityFrameworkStores<TikilazapeeDbContext>()
-                    .AddDefaultTokenProviders();
+            builder.Services.AddSercurity();
                             
             builder.Services.AddDbContext<TikilazapeeDbContext>(options =>
             {

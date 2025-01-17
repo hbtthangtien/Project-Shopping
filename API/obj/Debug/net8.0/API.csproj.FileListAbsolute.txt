@@ -31,11 +31,15 @@ E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Me
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -62,7 +66,9 @@ E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Drawing.Common.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Memory.Data.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Security.Permissions.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Windows.Extensions.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -127,6 +133,7 @@ E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microso
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Application.dll
@@ -157,10 +164,3 @@ E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\refint\API.dll
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\API.pdb
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\ref\API.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

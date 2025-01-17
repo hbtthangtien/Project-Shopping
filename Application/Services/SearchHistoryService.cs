@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Domain.Interfaces.IRepositories;
+using Domain.Interfaces.IServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class SearchHistoryService : BaseService
+    public class SearchHistoryService : BaseService, ISearchHistoryService
     {
         public SearchHistoryService(IMapper mapper, IUnitOfWork unitOfWork) 
             : base(mapper, unitOfWork)
