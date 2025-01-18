@@ -9,6 +9,6 @@ namespace Domain.Interfaces.IServices
 {
     public interface IAccountService
     {
-        public Task<RequestDTORegister> SignUpNewAccount(RequestDTORegister request);
+        public Task SignUpNewAccount(RequestDTORegister request);
     }
 }

@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "E:\\Documents\\C#\\Tikilazapee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|e:\\documents\\c#\\tikilazapee\\application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\exceptions\\identityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\identityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\response\\apiresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\response\\apiresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\response\\responselogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\response\\responselogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +50,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:36:33.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "API\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:32:59.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityException.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\IdentityException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\IdentityException.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\IdentityException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\IdentityException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:31:02.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseLoginDTO.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:25:38.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotfoundException.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\NotfoundException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\NotfoundException.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\NotfoundException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\NotfoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T06:25:21.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponeDTO.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ApiResponeDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Response\\ApiResponeDTO.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ApiResponeDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Response\\ApiResponeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:52:36.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:51:19.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,27 +155,26 @@
               "RelativeDocumentMoniker": "Application\\Services\\AccountService.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
               "RelativeToolTip": "Application\\Services\\AccountService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T02:27:52.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAccountService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IServices\\IAccountService.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAccountService.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IServices\\IAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:27:42.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T02:27:42.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "IAccountRepository.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
@@ -64,8 +182,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:27:33.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T02:27:33.749Z"
             }
           ]
         }
