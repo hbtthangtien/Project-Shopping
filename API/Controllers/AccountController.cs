@@ -19,13 +19,24 @@ namespace API.Controllers
         [HttpPost("sign-up")]
         public async Task<IActionResult> SignUpUser(RequestDTORegister request)
         {
-           await _accountService.SignUpNewAccount(request);
+            await _accountService.SignUpNewAccount(request);
             return Created("Sign up account", new ApiResponeDTO
             {
                 Message = "Sign up successfully",
                 Status = StatusCodes.Status201Created
             });
-           
+
         }
+        [HttpGet("confirm-email")]
+        public async Task<IActionResult> ConfirmEmail(string userId, string  token)
+        {
+            await _accountService.ConfirmEmail(userId, token);
+            return Ok(new ApiResponeDTO
+            {
+                Message = "Confirm email successfully",
+                Status = 400
+            });
+        }
+
     }
 }

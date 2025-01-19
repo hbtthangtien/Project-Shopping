@@ -10,5 +10,7 @@ namespace Domain.Interfaces.IServices
     public interface IAccountService
     {
         public Task SignUpNewAccount(RequestDTORegister request);
+
+        public Task ConfirmEmail(string UserId, string token);
     }
 }

@@ -164,3 +164,4 @@ E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\refint\API.dll
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\API.pdb
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\ref\API.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

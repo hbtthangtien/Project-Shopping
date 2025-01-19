@@ -31,6 +31,8 @@ namespace Application
             services.AddScoped<IStoreService, StoreService>();
             services.AddScoped<ISubCategoryService, SubCategoryService>();
             services.AddScoped<ITypeService, TypeService>();
+            services.AddScoped<IAuthenticateService, AuthenticateService>();
+            services.AddScoped<ISenderService, EmailService>();
             return services;
         }
     }

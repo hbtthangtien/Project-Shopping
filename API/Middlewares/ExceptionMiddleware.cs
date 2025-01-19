@@ -25,7 +25,17 @@ namespace API.Middlewares
                     Message = errors,
                     Status = StatusCodes.Status400BadRequest,
                 });
-            }catch (Exception ex)
+            }
+            catch (AuthenticationException ex)
+            {
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                await context.Response.WriteAsJsonAsync(new ApiResponeDTO
+                {
+                    Message = ex.Message,
+                    Status = StatusCodes.Status401Unauthorized,
+                });
+            }
+            catch (Exception ex)
             {
                 context.Response.StatusCode = StatusCodes.Status400BadRequest;
                 await context.Response.WriteAsJsonAsync(new ApiResponeDTO

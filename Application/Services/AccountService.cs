@@ -20,6 +20,11 @@ namespace Application.Services
         {
         }
 
+        public Task ConfirmEmail(string UserId, string token)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task SignUpNewAccount(RequestDTORegister request)
         {
             if (request.Password!.Equals(request.ConfirmPassword))
