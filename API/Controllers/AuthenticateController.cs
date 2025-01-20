@@ -1,5 +1,7 @@
 ﻿using Domain.DTOs.Request;
+using Domain.DTOs.Response;
 using Domain.Interfaces.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +21,18 @@ namespace API.Controllers
         {
             var token = await _authenticate.LoginAsync(request);
             return Ok(token);
+        }
+
+        [HttpPost("log-out")]
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            await _authenticate.Logout();
+            return Ok(new ApiResponeDTO
+            {
+                Message = "Logout successfully",
+                Status = StatusCodes.Status200OK,
+            }) ;
         }
     }
 }

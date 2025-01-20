@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "E:\\Documents\\C#\\Tikilazapee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\middlewares\\sercurityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\middlewares\\sercurityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|e:\\documents\\c#\\tikilazapee\\application\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|e:\\documents\\c#\\tikilazapee\\application\\dependenceinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\dependenceinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|e:\\documents\\c#\\tikilazapee\\application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,64 +11,64 @@
       "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\middlewares\\authenticateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\middlewares\\authenticateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\response\\responselogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\response\\responselogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\request\\requestdtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\request\\requestdtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\iproductcolortyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositories\\iproductcolortyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|e:\\documents\\c#\\tikilazapee\\application\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\configs\\jwtconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\configs\\jwtconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\configs\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\configs\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\constants\\emailsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\emailsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\request\\requestdtoresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\request\\requestdtoresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\request\\requestdtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\request\\requestdtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\constants\\linkconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\linkconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iauthenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\exceptions\\identityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\identityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\dtos\\response\\apiresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\response\\apiresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\constants\\bodyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\constants\\bodyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,301 +86,223 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependenceInjections.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\DependenceInjections.cs",
-              "RelativeDocumentMoniker": "Application\\DependenceInjections.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\DependenceInjections.cs",
-              "RelativeToolTip": "Application\\DependenceInjections.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T07:15:37.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\EmailService.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\EmailService.cs",
-              "RelativeToolTip": "Application\\Services\\EmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T07:15:13.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "API\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T04:30:10.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "RequestDTOLogin.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Request\\RequestDTOLogin.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\Request\\RequestDTOLogin.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Request\\RequestDTOLogin.cs",
               "RelativeToolTip": "Domain\\DTOs\\Request\\RequestDTOLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:54:47.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticateService.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AuthenticateService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AuthenticateService.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AuthenticateService.cs",
-              "RelativeToolTip": "Application\\Services\\AuthenticateService.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAEcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:54:19.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IAuthenticateService.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwA8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:51:50.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IProductColorTypeRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IProductColorTypeRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IProductColorTypeRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IProductColorTypeRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IProductColorTypeRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T02:49:39.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JwtConfigs.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\JwtConfigs.cs",
-              "RelativeDocumentMoniker": "Domain\\Configs\\JwtConfigs.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\JwtConfigs.cs",
-              "RelativeToolTip": "Domain\\Configs\\JwtConfigs.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA/wBAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T09:00:43.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-18T08:50:18.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "API.http",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\API.http",
-              "RelativeDocumentMoniker": "API\\API.http",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\API.http",
-              "RelativeToolTip": "API\\API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-18T08:50:01.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AQIAAAEAAAAAAAAAAABRwAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-18T08:44:03.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SercurityConfiguration.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\SercurityConfiguration.cs",
-              "RelativeDocumentMoniker": "API\\Middlewares\\SercurityConfiguration.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\SercurityConfiguration.cs",
-              "RelativeToolTip": "API\\Middlewares\\SercurityConfiguration.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T08:37:49.864Z",
+              "WhenOpened": "2025-01-20T08:12:26.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AuthenticateConfiguration.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\AuthenticateConfiguration.cs",
-              "RelativeDocumentMoniker": "API\\Middlewares\\AuthenticateConfiguration.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\AuthenticateConfiguration.cs",
-              "RelativeToolTip": "API\\Middlewares\\AuthenticateConfiguration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Title": "RequestDTOResetPassword.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Request\\RequestDTOResetPassword.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Request\\RequestDTOResetPassword.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Request\\RequestDTOResetPassword.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Request\\RequestDTOResetPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T08:37:44.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T06:36:33.938Z",
+              "WhenOpened": "2025-01-20T07:43:15.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "API\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "API\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAA/AAAA",
+              "Title": "LinkConstant.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Constants\\LinkConstant.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\LinkConstant.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Constants\\LinkConstant.cs",
+              "RelativeToolTip": "Domain\\Constants\\LinkConstant.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T06:32:59.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IdentityException.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\IdentityException.cs",
-              "RelativeDocumentMoniker": "Domain\\Exceptions\\IdentityException.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\IdentityException.cs",
-              "RelativeToolTip": "Domain\\Exceptions\\IdentityException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T06:31:02.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResponseLoginDTO.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\Response\\ResponseLoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T06:25:38.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "NotfoundException.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\NotfoundException.cs",
-              "RelativeDocumentMoniker": "Domain\\Exceptions\\NotfoundException.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Exceptions\\NotfoundException.cs",
-              "RelativeToolTip": "Domain\\Exceptions\\NotfoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T06:25:21.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ApiResponeDTO.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ApiResponeDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\Response\\ApiResponeDTO.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\DTOs\\Response\\ApiResponeDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\Response\\ApiResponeDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T05:52:36.032Z",
+              "WhenOpened": "2025-01-20T06:48:12.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBkAAAA1AAAA",
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "API\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T05:51:19.102Z",
+              "WhenOpened": "2025-01-20T06:45:19.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AccountService.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
-              "RelativeToolTip": "Application\\Services\\AccountService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAA8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:27:52.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAccountService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IServices\\IAccountService.cs",
               "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAccountService.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IServices\\IAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:27:42.115Z",
+              "WhenOpened": "2025-01-20T06:42:59.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T06:36:56.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BodyEmail.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Constants\\BodyEmail.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\BodyEmail.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Constants\\BodyEmail.cs",
+              "RelativeToolTip": "Domain\\Constants\\BodyEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:07:24.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtConfigs.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\JwtConfigs.cs",
+              "RelativeDocumentMoniker": "Domain\\Configs\\JwtConfigs.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\JwtConfigs.cs",
+              "RelativeToolTip": "Domain\\Configs\\JwtConfigs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:06:51.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailConfig.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\EmailConfig.cs",
+              "RelativeDocumentMoniker": "Domain\\Configs\\EmailConfig.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\EmailConfig.cs",
+              "RelativeToolTip": "Domain\\Configs\\EmailConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:06:47.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailSubject.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Constants\\EmailSubject.cs",
+              "RelativeDocumentMoniker": "Domain\\Constants\\EmailSubject.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Constants\\EmailSubject.cs",
+              "RelativeToolTip": "Domain\\Constants\\EmailSubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:06:41.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AccountService.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
+              "RelativeToolTip": "Application\\Services\\AccountService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T05:49:18.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepository.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T05:47:52.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T05:47:45.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticateService.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AuthenticateService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthenticateService.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AuthenticateService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthenticateService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAwEkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:47:01.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IAccountRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Title": "IAuthenticateService.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IServices\\IAuthenticateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:27:33.749Z",
+              "WhenOpened": "2025-01-19T16:46:45.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:45:48.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:45:43.008Z",
               "EditorCaption": ""
             }
           ]

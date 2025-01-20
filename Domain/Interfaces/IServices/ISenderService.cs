@@ -8,6 +8,6 @@ namespace Domain.Interfaces.IServices
 {
     public interface ISenderService
     {
-        public Task Send(string UserId, string token, string email);
+        public Task Send(string email, string subject, string body);
     }
 }

@@ -14,5 +14,7 @@ namespace Domain.Interfaces.IServices
         public Task<ResponseLoginDTO> LoginAsync(RequestDTOLogin requestDTO);
 
         public Task<string> GenerateToken(Account account);
+
+        public Task Logout();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Domain.Configs;
+using Domain.Constants;
 using Domain.DTOs.Request;
 using Domain.DTOs.Response;
 using Domain.Entities;
@@ -20,10 +21,13 @@ namespace Application.Services
     {
 
         private readonly JwtConfigs _jwtConfigs;
-        public AuthenticateService(IMapper mapper, IUnitOfWork unitOfWork, IOptions<JwtConfigs> options) 
+        private readonly ISenderService _email;
+        public AuthenticateService(IMapper mapper, IUnitOfWork unitOfWork,
+            IOptions<JwtConfigs> options, ISenderService senderService) 
             : base(mapper, unitOfWork)
         {
             _jwtConfigs = options.Value;
+            _email = senderService;
         }
 
         public async Task<string> GenerateToken(Account account)
@@ -54,14 +58,24 @@ namespace Application.Services
 
         public async Task<ResponseLoginDTO> LoginAsync(RequestDTOLogin requestDTO)
         {
+            var User = (requestDTO.Username.Contains('@')) 
+                ? await _unitOfWork.Accounts.UserManager.FindByEmailAsync(requestDTO.Username)   
+                :await _unitOfWork.Accounts.UserManager.FindByNameAsync(requestDTO.Username) ??
+                throw new IdentityException("Username is not exist");
             var login = await _unitOfWork.Accounts.SignInManager
-                .PasswordSignInAsync(requestDTO.Username, requestDTO.Password,false,lockoutOnFailure:false) ;
+                .PasswordSignInAsync(User!.UserName!, requestDTO.Password,false,lockoutOnFailure:false) ;
             if (login.Succeeded)
-            {
-               
-                var User = await _unitOfWork.Accounts.UserManager.FindByNameAsync(requestDTO.Username);
+            {                               
                 bool checkEmailConfirm = await _unitOfWork.Accounts.UserManager.IsEmailConfirmedAsync(User!);
-                if (!checkEmailConfirm) throw new AuthenticationException("Email is not authenticated!!!");
+                if (!checkEmailConfirm)
+                {
+                    var token = await _unitOfWork.Accounts.UserManager.GenerateEmailConfirmationTokenAsync(User);
+                    var baseUri = $"https://localhost:5000//";
+                    var uriBuilder = LinkConstant.UriBuilder(User.Id, token, "accounts/confirm-email");
+                    var link = uriBuilder.ToString();
+                    await _email.Send(User.Email!, EmailSubject.CONFIRM_EMAIL, BodyEmail.Body(User.Email!, link));
+                    throw new AuthenticationException("Email is not authenticated!!!");
+                }
                 string Token = await GenerateToken(User!);
                 string refreshToken = await GenerateRefreshToken();
                 return new ResponseLoginDTO
@@ -81,6 +95,12 @@ namespace Application.Services
                 throw new AuthenticationException("Username or Password is not correct!!!");
             }            
         }
+
+        public async Task Logout()
+        {
+            await _unitOfWork.Accounts.SignInManager.SignOutAsync();
+        }
+
         private async Task<string> GenerateRefreshToken()
         {
             return await Task.Run(() =>

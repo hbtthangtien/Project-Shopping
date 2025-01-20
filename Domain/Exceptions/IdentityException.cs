@@ -13,6 +13,8 @@ namespace Domain.Exceptions
             :base(string.Join(";", errors.Select(e => $"{e.Description}")))
         { }
 
-
+        public IdentityException(string? message) : base(message)
+        {
+        }
     }
 }
