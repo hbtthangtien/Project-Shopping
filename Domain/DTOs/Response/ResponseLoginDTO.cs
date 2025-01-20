@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.DTOs.Response
 {
-    internal class ResponseLoginDTO
+    public class ResponseLoginDTO
     {
+        public string? Token { get; set; }
+
+        public string? RefreshToken { get; set; }
     }
 }

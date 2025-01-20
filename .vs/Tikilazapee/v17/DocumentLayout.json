@@ -3,108 +3,28 @@
   "WorkspaceRootPath": "E:\\Documents\\C#\\Tikilazapee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250116145542_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20250116145542_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|e:\\documents\\c#\\tikilazapee\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B2789CD-F88F-43C9-9BB9-48B421FE3B63}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\configmodel\\identitymodelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\configmodel\\identitymodelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|e:\\documents\\c#\\tikilazapee\\application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480288CF-22F9-40D5-9784-D8DDA8344C5E}|Application\\Application.csproj|solutionrelative:application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\databasecontext\\tikilazapeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\tikilazapeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\configs\\jwtconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\configs\\jwtconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\typerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\typerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\searchhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\searchhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositories\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\productimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\productimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\productcolortyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\productcolortyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\imagefeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\imagefeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\categorytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\categorytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|e:\\documents\\c#\\tikilazapee\\persistence\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{539313F8-5D3C-4ACC-9CD7-5A9A3B896681}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|e:\\documents\\c#\\tikilazapee\\domain\\interfaces\\irepositories\\ityperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C1D40F-416A-4084-8398-EDB1556E59CF}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositories\\ityperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,348 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250116145542_update1.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250116145542_update1.cs",
-              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250116145542_update1.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Migrations\\20250116145542_update1.cs",
-              "RelativeToolTip": "Persistence\\Migrations\\20250116145542_update1.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:55:43.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IdentityModelBuilderExtensions.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\IdentityModelBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\ConfigModel\\IdentityModelBuilderExtensions.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\ConfigModel\\IdentityModelBuilderExtensions.cs",
-              "RelativeToolTip": "Persistence\\DatabaseContext\\ConfigModel\\IdentityModelBuilderExtensions.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:47:40.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TikilazapeeDbContext.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
-              "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
-              "RelativeToolTip": "Persistence\\DatabaseContext\\TikilazapeeDbContext.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAowJQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:47:00.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IProfileRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IProfileRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IProfileRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IProfileRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IProfileRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:40:10.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:29:34.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:27:48.684Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ITypeRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\ITypeRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\ITypeRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\ITypeRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\ITypeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "DocumentIndex": 3,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IServices\\IAccountService.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IServices\\IAccountService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IServices\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:27:44.366Z",
+              "WhenOpened": "2025-01-20T06:42:59.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TypeRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\TypeRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\TypeRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\TypeRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\TypeRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAABaAAAA",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T06:36:56.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtConfigs.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\JwtConfigs.cs",
+              "RelativeDocumentMoniker": "Domain\\Configs\\JwtConfigs.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Configs\\JwtConfigs.cs",
+              "RelativeToolTip": "Domain\\Configs\\JwtConfigs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:26:14.932Z",
+              "WhenOpened": "2025-01-20T06:06:51.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AccountService.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Application\\Services\\AccountService.cs",
+              "RelativeToolTip": "Application\\Services\\AccountService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T05:49:18.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SubCategoryRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\SubCategoryRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\SubCategoryRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\SubCategoryRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\SubCategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABfAAAA",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepository.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:26:02.045Z",
+              "WhenOpened": "2025-01-20T05:47:52.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StoreRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\StoreRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\StoreRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\StoreRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\StoreRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:25:45.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SearchHistoryRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\SearchHistoryRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\SearchHistoryRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\SearchHistoryRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\SearchHistoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:25:31.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProfileRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProfileRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ProfileRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProfileRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ProfileRepository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:25:16.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductImageRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProductImageRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ProductImageRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProductImageRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ProductImageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:25:01.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductColorTypeRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProductColorTypeRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ProductColorTypeRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProductColorTypeRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ProductColorTypeRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:24:45.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ProductRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:24:29.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderDetailRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\OrderDetailRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\OrderDetailRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\OrderDetailRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\OrderDetailRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:24:15.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\OrderRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\OrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:24:00.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ImageFeedbackRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ImageFeedbackRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ImageFeedbackRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ImageFeedbackRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ImageFeedbackRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:23:48.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FeedbackRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\FeedbackRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\FeedbackRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\FeedbackRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\FeedbackRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:23:34.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:23:15.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ColorRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ColorRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ColorRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\ColorRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ColorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:22:57.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoryTypeRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CategoryTypeRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\CategoryTypeRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CategoryTypeRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\CategoryTypeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:22:08.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:21:48.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CartItemRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CartItemRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\CartItemRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\CartItemRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\CartItemRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:21:25.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BrandRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\BrandRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\BrandRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\BrandRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\BrandRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:20:54.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\AccountRepository.cs",
-              "ToolTip": "E:\\Documents\\C#\\Tikilazapee\\Persistence\\Repositories\\AccountRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\AccountRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T14:20:35.034Z",
+              "WhenOpened": "2025-01-20T05:47:45.156Z",
               "EditorCaption": ""
             }
           ]

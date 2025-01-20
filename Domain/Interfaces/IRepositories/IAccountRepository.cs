@@ -13,5 +13,7 @@ namespace Domain.Interfaces.IRepositories
         public UserManager<Account> UserManager { get; }
 
         public SignInManager<Account> SignInManager { get; }
+
+        
     }
 }

@@ -13,6 +13,10 @@ namespace Domain.Interfaces.IRepositories
         public Task AddAsync(T entity);
         public void UpdateAsync(T entity);
         public void RemoveAsync(T entity);
+        public Task BeginTransactionAsync();
+        public Task CommitTransactionAsync();
+        public Task RollbackTransactionAsync();
+
 
     }
 }

@@ -1,10 +1,9 @@
 using Application;
-using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
 using Persistence;
 using Persistence.DatabaseContext;
-using Microsoft.Extensions.DependencyInjection;
+using API.Middlewares;
+using Domain.Configs;
 namespace API
 {
     public class Program
@@ -18,24 +17,25 @@ namespace API
             builder.Services.AddSwaggerGen();
             builder.Services.AddApplication();
             builder.Services.AddPersistence();
-            builder.Services.AddIdentity<Account, IdentityRole>()
-                    .AddEntityFrameworkStores<TikilazapeeDbContext>()
-                    .AddDefaultTokenProviders();
-                            
+            builder.Services.AddSercurity();            
+            var JwtConfig = builder.Configuration.GetSection("JwtConfig");
+            builder.Services.Configure<JwtConfigs>(JwtConfig);
+            builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailConfig"));
             builder.Services.AddDbContext<TikilazapeeDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration["ConnectionStrings:MyDatabase"]);
             });
+            builder.Services.AddAuthenticateJwt(JwtConfig.Get<JwtConfigs>()!);
             var app = builder.Build();
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
             app.UseAuthorization();
-            app.MapControllers();
-            
+            app.MapControllers();            
             app.Run();
         }
     }
