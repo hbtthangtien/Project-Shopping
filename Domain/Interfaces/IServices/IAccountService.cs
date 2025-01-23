@@ -16,5 +16,7 @@ namespace Domain.Interfaces.IServices
         public Task FindAccountToResetPassword(string UsernameOrEmail);
 
         public Task ResetPassword(RequestDTOResetPassword request);
+
+        public Task RegisterStore(RequestDTORegisterStore request);
     }
 }

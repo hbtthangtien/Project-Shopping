@@ -25,8 +25,8 @@ namespace Persistence.DatabaseContext.ConfigModel
                    .HasColumnName("store_address");
             builder.Property(e => e.StoreImage)
                    .HasColumnName("store_image");
-            builder.Property(e => e.StoreEmail)
-                   .HasColumnName("store_email");
+            builder.Property(e => e.StorePhone)
+                   .HasColumnName("store_phone");
             builder.HasOne(e => e.Account)
                    .WithOne(e => e.Store)
                    .HasForeignKey<Store>(e => e.AccountId);

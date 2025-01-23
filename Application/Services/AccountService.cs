@@ -5,7 +5,6 @@ using Domain.Entities;
 using Domain.Exceptions;
 using Domain.Interfaces.IRepositories;
 using Domain.Interfaces.IServices;
-using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,6 +43,12 @@ namespace Application.Services
             var uriBuilder = LinkConstant.UriBuilder(User!.Id, Token, "accounts/reset-password");
             var link = uriBuilder.ToString();
             await _mail.Send(User.Email!, EmailSubject.RESET_PASSWORD, BodyEmail.BodyResetPassword(User.Email!, link));
+        }
+
+        public async Task RegisterStore(RequestDTORegisterStore request)
+        {
+            var store = _mapper.Map<Store>(request);
+            await _unitOfWork.Stores.AddAsync(store);
         }
 
         public async Task ResetPassword(RequestDTOResetPassword request)

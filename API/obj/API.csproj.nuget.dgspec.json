@@ -148,9 +148,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "CloudinaryDotNet": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[1.27.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

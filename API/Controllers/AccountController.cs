@@ -1,6 +1,7 @@
 ﻿using Domain.DTOs.Request;
 using Domain.DTOs.Response;
 using Domain.Interfaces.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -65,5 +66,12 @@ namespace API.Controllers
             return Ok();
         }
 
+        [HttpPost("register-store")]
+        [Authorize]
+        public async Task<IActionResult> RegisterStore(RequestDTORegisterStore request)
+        {
+            await _accountService.RegisterStore(request);
+            return Ok();
+        }
     }
 }
