@@ -10,9 +10,6 @@ E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Azure.Core.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Azure.Identity.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Humanizer.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\MediatR.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\MediatR.Contracts.dll
-E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -165,3 +162,5 @@ E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\API.pdb
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\Documents\C#\Tikilazapee\API\obj\Debug\net8.0\ref\API.dll
 E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\CloudinaryDotNet.dll
+E:\Documents\C#\Tikilazapee\API\bin\Debug\net8.0\Newtonsoft.Json.dll

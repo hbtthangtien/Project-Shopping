@@ -1,10 +1,14 @@
-﻿using Domain.DTOs.Request;
+﻿using Domain.Constants;
+using Domain.DTOs.Request;
 using Domain.DTOs.Response;
+using Domain.Interfaces.IRepositories;
 using Domain.Interfaces.IServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using System.Security.Claims;
+using System.Text.Json;
 
 namespace API.Controllers
 {
@@ -13,9 +17,11 @@ namespace API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAccountService _accountService;
-        public AccountController(IAccountService accountService)
+        private readonly IUnitOfWork _unitOfWork;
+        public AccountController(IAccountService accountService, IUnitOfWork unitOfWork)
         {
             _accountService = accountService;
+            _unitOfWork = unitOfWork;
         }
         [HttpPost("sign-up")]
         public async Task<IActionResult> SignUpUser(RequestDTORegister request)
@@ -68,10 +74,26 @@ namespace API.Controllers
 
         [HttpPost("register-store")]
         [Authorize]
-        public async Task<IActionResult> RegisterStore(RequestDTORegisterStore request)
+        public async Task<IActionResult> RegisterStore(IFormFile file,[FromForm]RequestDTORegisterStore request)
         {
-            await _accountService.RegisterStore(request);
+            var Id = HttpContext.User.Claims.FirstOrDefault(e => e.Type.Equals("ID"))!.Value;
+            request.AccountId = Id;
+            await _accountService.RegisterStore(request,file);
             return Ok();
+
+        }
+        [HttpGet]
+        [Authorize(Roles = UserRole.ADMIN)]
+        public async Task<IActionResult> GetRole()
+        {
+            var roles =await _unitOfWork.Accounts.GetByIdAsync("1");
+            var claims = HttpContext.User.Claims.Select(e => new
+            {
+                Type = e.Type,
+                Name = e.Value.ToString()
+            });
+            //var json = JsonSerializer.Serialize(claims);
+            return Ok(claims);
         }
     }
 }

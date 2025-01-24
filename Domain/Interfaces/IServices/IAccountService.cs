@@ -1,4 +1,5 @@
 ﻿using Domain.DTOs.Request;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,6 @@ namespace Domain.Interfaces.IServices
 
         public Task ResetPassword(RequestDTOResetPassword request);
 
-        public Task RegisterStore(RequestDTORegisterStore request);
+        public Task RegisterStore(RequestDTORegisterStore request, IFormFile file);
     }
 }

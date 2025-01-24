@@ -64,5 +64,28 @@ namespace Domain.Constants
 </html>";
             return body;
         }
+
+        public static string BodyRegisterStore(string email, string link)
+        {
+            var body = $@"
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Email Confirmation</title>
+</head>
+<body style=""margin: 0; font-family: Arial, sans-serif; background-color: #333; color: #333; display: flex; justify-content: center; align-items: center; height: 400px;"">
+    <div style=""background-color: white; width: 100vw; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);"">
+        <img src=""https://res.cloudinary.com/dkyqm6vou/image/upload/v1737280894/OIP_3_ovpptg.jpg"" alt=""Envelope Icon"" style=""width: 80px; margin-bottom: 20px;"">
+        <h1 style=""font-size: 20px; margin: 10px 0;"">Request to reset password</h1>
+        <p style=""font-size: 14px; margin: 10px 0;"">
+            Welcome <strong>{email}</strong> become a seller in our website            
+        </p>        
+    </div>
+</body>
+</html>";
+            return body;
+        }
     }
 }

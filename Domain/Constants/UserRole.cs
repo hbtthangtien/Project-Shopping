@@ -9,9 +9,9 @@ namespace Domain.Constants
 {
     public static class UserRole
     {
-        public readonly static string CUSTOMER = "CUSTOMER";
-        public readonly static string SELLER = "SELLER";
-        public readonly static string ADMIN = "ADMIN";
-        public readonly static string MARKETING = "MARKETING";
+        public const string CUSTOMER = "CUSTOMER";
+        public const string SELLER = "SELLER";
+        public const string ADMIN = "ADMIN";
+        public const string MARKETING = "MARKETING";
     }
 }

@@ -5,6 +5,7 @@ using Domain.Entities;
 using Domain.Exceptions;
 using Domain.Interfaces.IRepositories;
 using Domain.Interfaces.IServices;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +17,13 @@ namespace Application.Services
     public class AccountService : BaseService, IAccountService
     {
         private readonly ISenderService _mail;
-        public AccountService(IMapper mapper, IUnitOfWork unitOfWork, ISenderService senderService)
+        private readonly ICloudinaryService _cloudinary;
+        public AccountService(IMapper mapper, IUnitOfWork unitOfWork,
+                ISenderService senderService, ICloudinaryService cloudinary)
             : base(mapper, unitOfWork)
         {
             _mail = senderService;
+            _cloudinary = cloudinary;
         }
 
         public async Task ConfirmEmail(string UserId, string token)
@@ -45,10 +49,26 @@ namespace Application.Services
             await _mail.Send(User.Email!, EmailSubject.RESET_PASSWORD, BodyEmail.BodyResetPassword(User.Email!, link));
         }
 
-        public async Task RegisterStore(RequestDTORegisterStore request)
+        public async Task RegisterStore(RequestDTORegisterStore request, IFormFile file)
         {
-            var store = _mapper.Map<Store>(request);
-            await _unitOfWork.Stores.AddAsync(store);
+            await _unitOfWork.Stores.BeginTransactionAsync();
+            try
+            {
+                var user = await _unitOfWork.Accounts.GetByIdAsync(request.AccountId!);
+                string link = await _cloudinary.UploadImageFileAsync(file, user.UserName!);
+                request.StoreImage = link;
+                var store = _mapper.Map<Store>(request);
+                await _unitOfWork.Stores.AddAsync(store);
+                await _unitOfWork.Accounts.UserManager.AddToRoleAsync(user,UserRole.SELLER);
+                await _unitOfWork.CommitAsync();
+                await _unitOfWork.Stores.CommitTransactionAsync();
+                await _mail.Send(user.Email!, EmailSubject.WELCOME_SELLER, BodyEmail.BodyRegisterStore(user.Email!,""));
+            }catch(Exception ex)
+            {
+                await _unitOfWork.Stores.RollbackTransactionAsync();
+                throw ex;
+            }
+
         }
 
         public async Task ResetPassword(RequestDTOResetPassword request)

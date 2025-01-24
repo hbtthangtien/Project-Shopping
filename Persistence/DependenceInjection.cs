@@ -1,5 +1,4 @@
 ﻿using Domain.Interfaces.IRepositories;
-using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Persistence.Repositories;
 using System;
